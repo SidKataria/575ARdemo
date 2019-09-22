@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F4DD874233828B0003948AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4DD873233828B0003948AA /* AppDelegate.swift */; };
+		1F4DD876233828B0003948AA /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4DD875233828B0003948AA /* art.scnassets */; };
+		1F4DD878233828B0003948AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4DD877233828B0003948AA /* ViewController.swift */; };
+		1F4DD87B233828B0003948AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4DD879233828B0003948AA /* Main.storyboard */; };
+		1F4DD87D233828B0003948AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4DD87C233828B0003948AA /* Assets.xcassets */; };
+		1F4DD880233828B0003948AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4DD87E233828B0003948AA /* LaunchScreen.storyboard */; };
+		1F4DD88B233828B0003948AA /* Portal575Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4DD88A233828B0003948AA /* Portal575Tests.swift */; };
+		1F4DD896233828B1003948AA /* Portal575UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4DD895233828B1003948AA /* Portal575UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F4DD887233828B0003948AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F4DD868233828AF003948AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F4DD86F233828AF003948AA;
+			remoteInfo = Portal575;
+		};
+		1F4DD892233828B1003948AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F4DD868233828AF003948AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F4DD86F233828AF003948AA;
+			remoteInfo = Portal575;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F4DD870233828B0003948AA /* Portal575.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Portal575.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F4DD873233828B0003948AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F4DD875233828B0003948AA /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		1F4DD877233828B0003948AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F4DD87A233828B0003948AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F4DD87C233828B0003948AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F4DD87F233828B0003948AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F4DD881233828B0003948AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F4DD886233828B0003948AA /* Portal575Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Portal575Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F4DD88A233828B0003948AA /* Portal575Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Portal575Tests.swift; sourceTree = "<group>"; };
+		1F4DD88C233828B0003948AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F4DD891233828B1003948AA /* Portal575UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Portal575UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F4DD895233828B1003948AA /* Portal575UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Portal575UITests.swift; sourceTree = "<group>"; };
+		1F4DD897233828B1003948AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F4DD86D233828AF003948AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4DD883233828B0003948AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4DD88E233828B1003948AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F4DD867233828AF003948AA = {
+			isa = PBXGroup;
+			children = (
+				1F4DD872233828B0003948AA /* Portal575 */,
+				1F4DD889233828B0003948AA /* Portal575Tests */,
+				1F4DD894233828B1003948AA /* Portal575UITests */,
+				1F4DD871233828B0003948AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F4DD871233828B0003948AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F4DD870233828B0003948AA /* Portal575.app */,
+				1F4DD886233828B0003948AA /* Portal575Tests.xctest */,
+				1F4DD891233828B1003948AA /* Portal575UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F4DD872233828B0003948AA /* Portal575 */ = {
+			isa = PBXGroup;
+			children = (
+				1F4DD873233828B0003948AA /* AppDelegate.swift */,
+				1F4DD875233828B0003948AA /* art.scnassets */,
+				1F4DD877233828B0003948AA /* ViewController.swift */,
+				1F4DD879233828B0003948AA /* Main.storyboard */,
+				1F4DD87C233828B0003948AA /* Assets.xcassets */,
+				1F4DD87E233828B0003948AA /* LaunchScreen.storyboard */,
+				1F4DD881233828B0003948AA /* Info.plist */,
+			);
+			path = Portal575;
+			sourceTree = "<group>";
+		};
+		1F4DD889233828B0003948AA /* Portal575Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1F4DD88A233828B0003948AA /* Portal575Tests.swift */,
+				1F4DD88C233828B0003948AA /* Info.plist */,
+			);
+			path = Portal575Tests;
+			sourceTree = "<group>";
+		};
+		1F4DD894233828B1003948AA /* Portal575UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F4DD895233828B1003948AA /* Portal575UITests.swift */,
+				1F4DD897233828B1003948AA /* Info.plist */,
+			);
+			path = Portal575UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F4DD86F233828AF003948AA /* Portal575 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F4DD89A233828B1003948AA /* Build configuration list for PBXNativeTarget "Portal575" */;
+			buildPhases = (
+				1F4DD86C233828AF003948AA /* Sources */,
+				1F4DD86D233828AF003948AA /* Frameworks */,
+				1F4DD86E233828AF003948AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Portal575;
+			productName = Portal575;
+			productReference = 1F4DD870233828B0003948AA /* Portal575.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F4DD885233828B0003948AA /* Portal575Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F4DD89D233828B1003948AA /* Build configuration list for PBXNativeTarget "Portal575Tests" */;
+			buildPhases = (
+				1F4DD882233828B0003948AA /* Sources */,
+				1F4DD883233828B0003948AA /* Frameworks */,
+				1F4DD884233828B0003948AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F4DD888233828B0003948AA /* PBXTargetDependency */,
+			);
+			name = Portal575Tests;
+			productName = Portal575Tests;
+			productReference = 1F4DD886233828B0003948AA /* Portal575Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F4DD890233828B1003948AA /* Portal575UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F4DD8A0233828B1003948AA /* Build configuration list for PBXNativeTarget "Portal575UITests" */;
+			buildPhases = (
+				1F4DD88D233828B1003948AA /* Sources */,
+				1F4DD88E233828B1003948AA /* Frameworks */,
+				1F4DD88F233828B1003948AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F4DD893233828B1003948AA /* PBXTargetDependency */,
+			);
+			name = Portal575UITests;
+			productName = Portal575UITests;
+			productReference = 1F4DD891233828B1003948AA /* Portal575UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F4DD868233828AF003948AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Siddharth Kataria";
+				TargetAttributes = {
+					1F4DD86F233828AF003948AA = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					1F4DD885233828B0003948AA = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 1F4DD86F233828AF003948AA;
+					};
+					1F4DD890233828B1003948AA = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 1F4DD86F233828AF003948AA;
+					};
+				};
+			};
+			buildConfigurationList = 1F4DD86B233828AF003948AA /* Build configuration list for PBXProject "Portal575" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F4DD867233828AF003948AA;
+			productRefGroup = 1F4DD871233828B0003948AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F4DD86F233828AF003948AA /* Portal575 */,
+				1F4DD885233828B0003948AA /* Portal575Tests */,
+				1F4DD890233828B1003948AA /* Portal575UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F4DD86E233828AF003948AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4DD876233828B0003948AA /* art.scnassets in Resources */,
+				1F4DD880233828B0003948AA /* LaunchScreen.storyboard in Resources */,
+				1F4DD87D233828B0003948AA /* Assets.xcassets in Resources */,
+				1F4DD87B233828B0003948AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4DD884233828B0003948AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4DD88F233828B1003948AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F4DD86C233828AF003948AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4DD878233828B0003948AA /* ViewController.swift in Sources */,
+				1F4DD874233828B0003948AA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4DD882233828B0003948AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4DD88B233828B0003948AA /* Portal575Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4DD88D233828B1003948AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4DD896233828B1003948AA /* Portal575UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F4DD888233828B0003948AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F4DD86F233828AF003948AA /* Portal575 */;
+			targetProxy = 1F4DD887233828B0003948AA /* PBXContainerItemProxy */;
+		};
+		1F4DD893233828B1003948AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F4DD86F233828AF003948AA /* Portal575 */;
+			targetProxy = 1F4DD892233828B1003948AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F4DD879233828B0003948AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F4DD87A233828B0003948AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F4DD87E233828B0003948AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F4DD87F233828B0003948AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F4DD898233828B1003948AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F4DD899233828B1003948AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F4DD89B233828B1003948AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Portal575/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CPSC575.Portal575;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F4DD89C233828B1003948AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Portal575/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CPSC575.Portal575;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F4DD89E233828B1003948AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Portal575Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CPSC575.Portal575Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Portal575.app/Portal575";
+			};
+			name = Debug;
+		};
+		1F4DD89F233828B1003948AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Portal575Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CPSC575.Portal575Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Portal575.app/Portal575";
+			};
+			name = Release;
+		};
+		1F4DD8A1233828B1003948AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Portal575UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CPSC575.Portal575UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Portal575;
+			};
+			name = Debug;
+		};
+		1F4DD8A2233828B1003948AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Portal575UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CPSC575.Portal575UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Portal575;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F4DD86B233828AF003948AA /* Build configuration list for PBXProject "Portal575" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F4DD898233828B1003948AA /* Debug */,
+				1F4DD899233828B1003948AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F4DD89A233828B1003948AA /* Build configuration list for PBXNativeTarget "Portal575" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F4DD89B233828B1003948AA /* Debug */,
+				1F4DD89C233828B1003948AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F4DD89D233828B1003948AA /* Build configuration list for PBXNativeTarget "Portal575Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F4DD89E233828B1003948AA /* Debug */,
+				1F4DD89F233828B1003948AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F4DD8A0233828B1003948AA /* Build configuration list for PBXNativeTarget "Portal575UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F4DD8A1233828B1003948AA /* Debug */,
+				1F4DD8A2233828B1003948AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F4DD868233828AF003948AA /* Project object */;
+}
