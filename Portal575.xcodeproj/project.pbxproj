@@ -15,6 +15,7 @@
 		1F4DD880233828B0003948AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4DD87E233828B0003948AA /* LaunchScreen.storyboard */; };
 		1F4DD88B233828B0003948AA /* Portal575Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4DD88A233828B0003948AA /* Portal575Tests.swift */; };
 		1F4DD896233828B1003948AA /* Portal575UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4DD895233828B1003948AA /* Portal575UITests.swift */; };
+		1F4DD8A423382CDA003948AA /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4DD8A323382CDA003948AA /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1F4DD891233828B1003948AA /* Portal575UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Portal575UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F4DD895233828B1003948AA /* Portal575UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Portal575UITests.swift; sourceTree = "<group>"; };
 		1F4DD897233828B1003948AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F4DD8A323382CDA003948AA /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		1F4DD867233828AF003948AA = {
 			isa = PBXGroup;
 			children = (
+				1F4DD8A323382CDA003948AA /* Extension.swift */,
 				1F4DD872233828B0003948AA /* Portal575 */,
 				1F4DD889233828B0003948AA /* Portal575Tests */,
 				1F4DD894233828B1003948AA /* Portal575UITests */,
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F4DD8A423382CDA003948AA /* Extension.swift in Sources */,
 				1F4DD878233828B0003948AA /* ViewController.swift in Sources */,
 				1F4DD874233828B0003948AA /* AppDelegate.swift in Sources */,
 			);
@@ -435,7 +439,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QN34D8796;
 				INFOPLIST_FILE = Portal575/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +458,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QN34D8796;
 				INFOPLIST_FILE = Portal575/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

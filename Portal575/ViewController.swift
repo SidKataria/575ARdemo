@@ -28,6 +28,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         // Set the scene to the view
         sceneView.scene = scene
+        
+        setupScene()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -47,6 +49,73 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.session.pause()
     }
 
+    //Creating our Portal function
+    func setupScene() {
+        let node = SCNNode()
+        node.position = SCNVector3.init(length, 0, 0)
+        
+        //The portal inside
+        let leftWall = createPortal(isDoor: false)
+        leftWall.position = SCNVector3.init((-length / 2) + width, 0, 0)
+        leftWall.eulerAngles = SCNVector3.init(0, 180.0.d2R, 0)
+        let rightWall = createPortal(isDoor: false)
+        rightWall.position = SCNVector3.init((length / 2) - width, 0, 0)
+        let topWall = createPortal(isDoor: false)
+        topWall.position = SCNVector3.init(0, (height / 2) - width, 0)
+        topWall.eulerAngles = SCNVector3.init(0, 0, 90.0.d2R)
+        let bottomWall = createPortal(isDoor: false)
+        bottomWall.position = SCNVector3.init(0, (-height / 2) + width, 0)
+        bottomWall.eulerAngles = SCNVector3.init(0, 0, -90.0.d2R)
+        let backWall = createPortal(isDoor: false)
+        backWall.position = SCNVector3.init(0, 0, (-length / 2) + width)
+        backWall.eulerAngles = SCNVector3.init(0, 90.0.d2R, 0)
+        
+        //The portal
+        let leftDoorSide = createPortal(isDoor: true)
+        leftDoorSide.position = SCNVector3.init((-length / 2) + (-doorLength / 2), 0, length / 2)
+        leftDoorSide.eulerAngles = SCNVector3.init(0, -90.0.d2R, 0)
+        let rightDoorSide = createPortal(isDoor: true)
+        rightDoorSide.position = SCNVector3.init((length / 2) - (doorLength / 2), 0, length / 2)
+        rightDoorSide.eulerAngles = SCNVector3.init(0, -90.0.d2R, 0)
+        
+        //Creating Light (Rendering)
+        let light = SCNLight()
+        light.type = .spot
+        light.spotInnerAngle = 70
+        light.spotOuterAngle = 120
+        light.zNear = 0.0001
+        light.zFar = 5
+        light.castsShadow = true
+        light.shadowRadius = 200
+        light.shadowColor = UIColor.black.withAlphaComponent(0.3)
+        light.shadowMode = .deferred
+        let constraint = SCNLookAtConstraint(target: bottomWall)
+        constraint.isGimbalLockEnabled = true
+        
+        let lightNode = SCNNode()
+        lightNode.light = light
+        lightNode.position = SCNVector3.init(0, (height / 2) - width, 0)
+        lightNode.constraints = [constraint]
+        
+        node.addChildNode(lightNode)
+        
+        
+        //Adding all nodes to main node
+        node.addChildNode(leftWall)
+        node.addChildNode(rightWall)
+        node.addChildNode(topWall)
+        node.addChildNode(bottomWall)
+        node.addChildNode(backWall)
+        node.addChildNode(leftDoorSide)
+        node.addChildNode(rightDoorSide)
+        
+        self.sceneView.scene.rootNode.addChildNode(node)
+        
+    }
+    
+    
+    
+    
     // MARK: - ARSCNViewDelegate
     
 /*
